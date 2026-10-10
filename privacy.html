@@ -1,48 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy - YouTube Content OS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Konsin Media Content Manager</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 800px; margin: 0 auto; padding: 32px 20px; color: #1a1a1a; line-height: 1.65; }
+  h1 { font-size: 1.8em; }
+  h2 { margin-top: 2em; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }
+  a { color: #1565c0; }
+</style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Last updated: October 9, 2026</p>
 
-  <p>YouTube Content OS is a private application
-  used to manage authorized YouTube channels
-  through the YouTube Data API.</p>
+<h1>Privacy Policy</h1>
+<p><strong>Konsin Media Content Manager</strong> — by <strong>Konsin Media</strong>, operated by <strong>Sigma Media</strong>.<br>
+Effective date: 10 October 2026. Last updated: 10 October 2026.</p>
 
-  <h2>Information Accessed</h2>
-  <p>The application accesses authorized YouTube
-  channel information and permissions necessary
-  to upload and schedule videos.</p>
+<h2>1. Overview</h2>
+<p>Konsin Media Content Manager is a <strong>private, internal tool</strong> used exclusively by Konsin Media and its
+authorized staff to manage the company's own YouTube channels through the YouTube Data API. The app is not offered
+to external users, and we do not operate a public service that collects data from the general public.</p>
 
-  <h2>How Information Is Used</h2>
-  <p>Information is used only to manage channels,
-  upload videos, and schedule publications.</p>
+<h2>2. Data we access</h2>
+<p>With the user's consent via Google OAuth, the app requests the following scopes:</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.readonly</code> — read channel and video information
+      (e.g., video IDs, titles, statuses) needed to manage our own channels;</li>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code> — upload video files to channels we own;</li>
+  <li><code>https://www.googleapis.com/auth/youtube.force-ssl</code> — view, edit, and manage video metadata
+      (titles, descriptions, thumbnails, privacy status, scheduling) for channels we own.</li>
+</ul>
+<p>The app only accesses data for YouTube channels owned or managed by Konsin Media / Sigma Media. It does not
+request access to, and does not process, data belonging to unrelated third parties.</p>
 
-  <h2>Data Storage and Security</h2>
-  <p>OAuth credentials are stored securely in
-  controlled environments and are not sold
-  to third parties.</p>
+<h2>3. How we use the data</h2>
+<p>Data accessed through the YouTube Data API is used solely for the following internal purposes:</p>
+<ul>
+  <li>uploading video files produced by our team;</li>
+  <li>reading channel/video information to verify uploads and channel state;</li>
+  <li>editing video metadata and publish scheduling for our own channels.</li>
+</ul>
+<p>No other use is made of the data.</p>
 
-  <h2>Data Sharing</h2>
-  <p>The application communicates with Google
-  and YouTube APIs to perform authorized actions.</p>
+<h2>4. Limited use — YouTube API Services compliance</h2>
+<p>Our use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">YouTube API Services User Data Policy</a>,
+including the Limited Use requirements:</p>
+<ul>
+  <li>we do not sell, rent, or otherwise transfer user data to third parties;</li>
+  <li>we do not use the data for advertising purposes or for serving ads;</li>
+  <li>we do not allow humans to read the data except where necessary for the purposes described above
+      (e.g., troubleshooting by an authorized administrator);</li>
+  <li>we do not combine or aggregate the data with other datasets for profiling or analytics beyond the
+      internal management functions described above.</li>
+</ul>
 
-  <h2>Revoking Access</h2>
-  <p>Users can revoke access through
-  Google Account security settings at
-  https://myaccount.google.com/connections.</p>
+<h2>5. Data storage and security</h2>
+<p>OAuth access tokens and refresh tokens are stored in access-restricted files (operating-system file
+permissions) on access-controlled infrastructure accessible only to authorized administrators of
+Konsin Media / Sigma Media. Channel metadata processed by the app
+is stored only for as long as needed for internal operations and is protected by standard access controls.
+Tokens are revoked and deleted when no longer needed.</p>
 
-  <h2>Contact</h2>
-  <p>For privacy questions, contact the
-  application operator through the support
-  email displayed on the Google OAuth consent
-  screen.</p>
+<h2>6. Data sharing</h2>
+<p>We do not share, sell, or disclose data obtained through the YouTube Data API to any third party, except as
+required by law or to comply with a valid legal process.</p>
 
-  <p><a href="/">Back to Home</a></p>
+<h2>7. Your rights</h2>
+<p>Because the app is internal and its only users are Konsin Media / Sigma Media staff:</p>
+<ul>
+  <li>any authorized user may request a copy, correction, or deletion of data relating to their use of the app;</li>
+  <li>any user may revoke the app's access at any time via
+      <a href="https://myaccount.google.com/permissions">Google account permissions</a>.</li>
+</ul>
+
+<h2>8. Contact</h2>
+<p>For questions about this policy or about the app's handling of data, contact:
+<a href="mailto:lightbodyfrushour@gmail.com">lightbodyfrushour@gmail.com</a>
+(Konsin Media, operated by Sigma Media).</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy as the app evolves. The current version will always be published at this URL.</p>
+
+<footer>
+  &copy; 2026 Konsin Media (operated by Sigma Media). All rights reserved.<br>
+  <a href="index.html">Home</a> &middot; <a href="terms.html">Terms of Service</a>
+</footer>
+
 </body>
 </html>
